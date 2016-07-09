@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Installing This Page"
+date:   2016-07-09 16:13:48 +0900
+categories: log
+---
+
+## Install
 
 ```sh
 $ gem install jekyll
@@ -61,6 +69,22 @@ Installing ri documentation for jekyll-3.1.6
 Done installing documentation for liquid, kramdown, mercenary, safe_yaml, colorator, rouge, sass, jekyll-sass-converter, rb-fsevent, ffi, rb-inotify, listen, jekyll-watch, jekyll after 57 seconds
 14 gems installed
 ```
+
+## Configuration
+
+홈페이지 생성을 원하는 디렉토리로 이동하여 다음과 같이 입력함.
+
+```
+$ jekyll new . --force
+```
+
+## Testing
+```
+$ jekyll serve
+```
+
+브라우저로 `localhost:4000`로 접속하면 페이지를 확인할 수 있다.
+
 
 # See Also
 
