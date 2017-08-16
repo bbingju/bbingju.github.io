@@ -8,7 +8,8 @@ categories: log
 [React](https://facebook.github.io/react/)에서 말하는 Immutable은 이
 한 문장으로 요약된다. 
 
-	Whenever your object would be mutated, don’t do it. Instead, create a changed copy of it.
+> Whenever your object would be mutated, don’t do it. 
+> Instead, create a changed copy of it.
 
 모든 UI library 혹은 framework가 그렇듯 화면
 업데이트를 가능한한 최소화해야 성능을 극대화 할 수 있다. React도
