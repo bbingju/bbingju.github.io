@@ -19,3 +19,5 @@ facebook_username: pjhwang
 
 # Build settings
 markdown: kramdown
+
+theme: jekyll-theme-hacker
