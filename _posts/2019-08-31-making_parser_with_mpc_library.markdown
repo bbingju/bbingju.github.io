@@ -31,12 +31,12 @@ categories: programming
 예를 들면,
 
 ```
-	(led_set_direct_draw, 0)
-	(led_clear)
-    (led_set_pixel, 0, 0, 0xFF0000) 
-	(led_set_pixel, 1, 0, 0x00FF00)
-	(led_fill_rect, 0, 5, 9, 9, 0x0000FF)
-	(led_draw)
+(led_set_direct_draw, 0)
+(led_clear)
+(led_set_pixel, 0, 0, 0xFF0000) 
+(led_set_pixel, 1, 0, 0x00FF00)
+(led_fill_rect, 0, 5, 9, 9, 0x0000FF)
+(led_draw)
 ```
 
 같은 스크립트를 앱에서 보드로 한꺼번에 명령내릴 수 있는데, 의미는
