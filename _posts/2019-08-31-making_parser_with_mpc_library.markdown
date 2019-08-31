@@ -5,7 +5,7 @@ date:   2019-08-31
 categories: programming
 ---
 
-얼마 전에 발주받은 [https://github.com/bbingju/smart-peg][펌웨어 개발 건]에서 약간 재미난 구현이 있어서 몇자 적는다.
+얼마 전에 발주받은 [펌웨어 개발 건][https://github.com/bbingju/smart-peg]에서 약간 재미난 구현이 있어서 몇자 적는다.
 
 만들어야 하는 펌웨어는 치매 환자의 인지력과 기억력 향상에 도움을
 주도록 설계된 간단한 보드인데, 삼색 LED 100개와 자석 센서가 100개
@@ -16,9 +16,9 @@ categories: programming
 
 그래서 앱과 보드 사이에 간단한 명령어셋이 필요했다. 기본적인 문법은
 과거 시리얼 통신에서 사용하는 방식을 활용했는데 좀 깔끔하게 구현할
-방법이 없을까 고민하다 [https://github.com/orangeduck/mpc][mpc
-라이브러리]가 생각나 이용해 보기로 했다. mpc 라이브러리는 yacc와
-비슷한 기능을 하지만, library 형태로 되어 있어서 간단한 인터프리터를
+방법이 없을까 고민하다 [mpc라이브러리][https://github.com/orangeduck/mpc]가
+생각나 이용해 보기로 했다. mpc 라이브러리는 yacc와
+비슷한 기능을 하지만 라이브러리 형태로 되어 있어서 간단한 인터프리터를
 만들 때 사용하기에 적당한 것 같다.
 
 보드와 앱이 주고 받을 명령어셋은 대략 다음과 같은 규칙을 가진다.
@@ -45,7 +45,7 @@ categories: programming
 뜻이다.
 
 위 문법 규칙을 프로그래밍 언어를 정의할 때 사용하는 표준적인 표기법인
-[https://en.wikipedia.org/wiki/Backus–Naur_form][BNF]로 작성하면
+[BNF][https://en.wikipedia.org/wiki/Backus–Naur_form]로 작성하면
 다음과 같다.
 
 	<decimal>     ::= /[0-9]+/
