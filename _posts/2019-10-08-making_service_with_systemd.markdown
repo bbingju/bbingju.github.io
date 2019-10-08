@@ -14,7 +14,7 @@ tags: [systemd, daemonize, linux]
 구현하면 된다.
 
 ```c
-for (1) {
+while (1) {
 	// 원하는 작업 코드
 }
 ```
