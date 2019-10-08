@@ -6,7 +6,5 @@ permalink: /about/
 
 # Me
 
-- Programmer
-- Main Job: Embedded System Packaging, Device Driver Programming
-- Main Editor: Emacs
-- Main Language: C
+- Job: Freelance Programmer
+- Experts: Embedded System & Application Programming

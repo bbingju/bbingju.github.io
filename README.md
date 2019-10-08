@@ -1,1 +1,1 @@
-# My Github Homepage
+# My static homepage

@@ -7,15 +7,14 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Bbingju's Homepage
+title: bbingju
 email: pjhwang@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  뭐라도 새롭게 알게 되는 것이 있고, 그것을 정리할 수 있는 형태가 되면 올릴 계획.
+  no description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bbingju.github.io" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 github_username:  bbingju
-facebook_username: pjhwang
 
 # Build settings
 markdown: kramdown
