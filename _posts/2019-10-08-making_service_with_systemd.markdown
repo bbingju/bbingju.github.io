@@ -82,14 +82,14 @@ while (1) {
 
 물론 C가 아닌 언어들도 시스템 라이브러리에 데몬화해주는 API를 대부분
 가지고 있을 것이지만(안찾아봐서 정확한 건 아님) 좀 더 쉬운 방법이 있다. 
-바로 (systemd)[https://www.freedesktop.org/wiki/Software/systemd/]가 제공하는 기능을 이용하는 것이다.
+바로 [systemd](https://www.freedesktop.org/wiki/Software/systemd/)가 제공하는 기능을 이용하는 것이다.
 
 
 # systemd
 
 `systemd`는 요즘 왠만한 리눅스 배포판은 다 사용하는 init
 시스템이다. 과거에는
-[SysVint](https://wiki.archlinux.org/index.php/SysVinit)을 주로
+[SysVinit](https://wiki.archlinux.org/index.php/SysVinit)을 주로
 사용하였으나, 많은 논란과 함께 대부분의 메이저 배포판들은 systemd로
 일원화되었다.
 
