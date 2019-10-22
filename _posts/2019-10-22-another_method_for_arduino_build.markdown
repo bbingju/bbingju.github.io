@@ -2,7 +2,7 @@
 layout: post
 title:  "아두이노 앱을 빌드하는 또다른 방법"
 date:   2019-10-22
-categories: arduino, makefile
+categories: embedded programming
 ---
 
 # 들어가며
@@ -13,7 +13,7 @@ categories: arduino, makefile
 도구를 내놓을 준비를 하고 있는 것이다.
 
 물론 나는 Arduino Pro IDE가 나와도 쓰지 않을 것이다. 이미 만족하며
-쓰고 있는 것(emacs + Makefile)이 있기 때문이다. 이번 기회에 내가
+쓰고 있는 조합(emacs + Makefile)이 있기 때문이다. 이번 기회에 내가
 사용하고 있는 방법에 대하여 간단히 설명해보려 한다.
 
 참고로, 이 글은 AVR 기반 아두이노에 대해서만 다룬다.
