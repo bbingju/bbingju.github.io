@@ -11,6 +11,7 @@ categories: hangul programming
 
 우선 [최신 유니코드 표준 중 동아시아 장](https://www.unicode.org/versions/Unicode12.0.0/ch18.pdf "Unicode12.0.0 chapter18")에 한글이 어떻게 정의되어 있는지 봐야한다. 
 
+
 # 유니코드
 
 우선 자모(*jamo*)가 정의되어 있다. 알파벳이라 할 수도 있겠지만 한글은
@@ -21,14 +22,14 @@ categories: hangul programming
 정의되어 있다. 영역이 한 바이트이므로 최대 255개를 정의할 수 있는데,
 이 정도면 옛한글 자모까지 포함해도 충분한 듯 한다. 우리가 두벌씩
 자판을 써서 초성과 종성이 하나인 것처럼 여기고 있지만 유니코드
-자모표에는 둘이 구분되어 있다는 점이 놀랍다.
-
-구체적인 장표는 [이 문서](https://www.unicode.org/charts/PDF/U1100.pdf)에서 확인할 수 있다.
+자모표에는 둘이 구분되어 있다는 점이 놀랍다. 구체적인 장표는 
+[이 문서](https://www.unicode.org/charts/PDF/U1100.pdf)에서 확인할 수 있다.
 
 그리고 음절(*syllables*)은 `U+AC00` 에서 `U+D7AF`까지 정의되어 있고
 Syllables는 [이 문서](https://www.unicode.org/charts/PDF/UAC00.pdf)에서 확인할 수
 있다. 엄청 방대한 분량이다. 아마 CJK 한자 다음으로 많은 영역을
 차지하고 있을 꺼다.
+
 
 # 세 자모(초성, 중성, 중성)로 음절을 찾는 방법
 
@@ -38,7 +39,7 @@ C 라이브러리인 [libhangul](https://github.com/libhangul/libhangul)을
 
 [이 소스](https://github.com/libhangul/libhangul/blob/master/hangul/hangulctype.c)를
 보면 언급한 유니코드의 내용을 구현해 놓았다. 거기서 내가 궁금해하는
-부분은 아래 함수 하나로 구현되어 있다.
+부분이 아래 함수 하나로 구현되어 있다.
 
 ```c
 static const ucschar syllable_base  = 0xac00;
