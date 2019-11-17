@@ -48,6 +48,8 @@ Org-mode는 기본적으로
 강력한 기능이다[^1]. 물론 세상의 모든 프로그래밍 언어를 지원하는 것은
 아니지만, ditaa도 기본적으로 지원하기 때문에 그냥 쓸 수 있다.
 
+[^1]: Python 쪽에서는 [Jupyter Notebook](https://jupyter.org/) 같은 것들도 있다.
+
 예를 들어, Org 문서 내에서 Python 코드를 실행하고자 한다면 대략 다음과
 같이 쓰면 된다.
 
@@ -121,10 +123,6 @@ github에서는 markdown 이나 org 포맷 등도 지원하므로 편의에 따�
 # 결론
 
 매뉴얼을 잘 읽어보자.
-
-
-# Footnotes
-[^1]: Python 쪽에서는 [Jupyter Notebook](https://jupyter.org/) 같은 것들도 있다.
 
 
 끝.
