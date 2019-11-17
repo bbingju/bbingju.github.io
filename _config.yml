@@ -19,4 +19,5 @@ github_username:  bbingju
 # Build settings
 markdown: kramdown
 
-theme: jekyll-theme-hacker
+# theme: jekyll-theme-hacker
+remote_theme: pages-themes/hacker
