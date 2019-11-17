@@ -102,7 +102,7 @@ github에서는 markdown 이나 org 포맷 등도 지원하므로 편의에 따�
 보듯이 파일 변환이 안된 건 아니다. 변환된 이미지가 html 문서에 포함되지 않은 것이다.
 
 그러다가 우연히
-[메뉴얼](https://orgmode.org/manual/Specific-header-arguments.html#Specific-header-arguments)을
+[매뉴얼](https://orgmode.org/manual/Specific-header-arguments.html#Specific-header-arguments)을
 보게 되었다. 게중에 `:exports`라는 헤더 인자가 있네. 그리고 그 값으로 `code`, `results`, `both`, `none` 이 있는 걸 확인하고,
 위 헤더를 다음과 같이 고쳤더니,
 
@@ -120,8 +120,11 @@ github에서는 markdown 이나 org 포맷 등도 지원하므로 편의에 따�
 
 # 결론
 
-메뉴얼을 잘 읽어보자.
+매뉴얼을 잘 읽어보자.
+
+
+# Footnotes
+[^1]: Python 쪽에서는 [Jupyter Notebook](https://jupyter.org/) 같은 것들도 있다.
+
 
 끝.
-
-[^1]: Python 쪽에서는 [Jupyter Notebook](https://jupyter.org/) 같은 것들도 있다.
