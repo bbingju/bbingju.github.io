@@ -93,7 +93,7 @@ brew install arduino-mk
 
 그리고 Makefile의 예는 대략 다음과 같다.
 
-```Makefile
+```make
 PROJECT_DIR = $(PWD)
 
 ARDUINO_DIR   = $(PROJECT_DIR)/core/MegaCore/avr
