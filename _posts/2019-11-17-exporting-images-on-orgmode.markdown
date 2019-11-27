@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Org-mode에서 생성한 이미지 결과물이 잘 보이게 하기"
 date:   2019-11-17
 categories: emacs org-mode
@@ -98,7 +98,7 @@ github에서는 markdown 이나 org 포맷 등도 지원하므로 편의에 따�
 위와 같이 코드를 집어 넣으면 변환된 이미지가 github 페이지 문서에
 포함되어 보여야하는데 아래와 같이 원소스 그대로 html에 출력되었다.
 
-![원하지 않는 결과](/assets/orgmode-exports-unwanted-result.png)
+![원하지 않는 결과](/assets/img/orgmode-exports-unwanted-result.png)
 
 [여기](https://github.com/bbingju/smart-peg/blob/master/doc/pic/smart-peg-system.png)에서
 보듯이 파일 변환이 안된 건 아니다. 변환된 이미지가 html 문서에 포함되지 않은 것이다.
@@ -114,7 +114,7 @@ github에서는 markdown 이나 org 포맷 등도 지원하므로 편의에 따�
 
 아래와 같이 제대로 나왔다!
 
-![원하는 결과](/assets/orgmode-exports-wanted-results.png)
+![원하는 결과](/assets/img/orgmode-exports-wanted-results.png)
 
 그러니까 `:exports results`를 더 추가한 것인데, 그동안 `:exports` 헤더 인자의
 기본값이 `code`로 되어 있어서 계속 텍스트로만 변환되었던 것이다.

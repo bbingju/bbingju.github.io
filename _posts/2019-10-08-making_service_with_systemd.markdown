@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "리눅스 앱을 서비스로 만들기 위해 필요한 것들"
 date:   2019-10-08
 categories: [programming]
@@ -48,7 +48,7 @@ while (1) {
 프로그램을 구동시키고 로그아웃을 하지 않은 채로 그대로 돌아가게 두는
 것과 같은 것이다.
 
-![tmux 안에서 프로그램을 구통시킨 화면](/assets/running-app-within-tmux.png)
+![tmux 안에서 프로그램을 구통시킨 화면](/assets/img/running-app-within-tmux.png)
 
 이 방법은 개발할 때 이용하면 여러모로 편할 뿐만 아니라, 쓰는 사람이 몇
 안되는 소규모 서비스들은 이렇게 사용해도 충분한 경우가 많다.

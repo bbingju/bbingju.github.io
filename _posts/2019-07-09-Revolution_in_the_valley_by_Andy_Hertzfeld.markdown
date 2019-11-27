@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "미래를 만든 Geeks (원제: Revolution in the Valley) by Andy Hertzfeld 를 읽고"
 date:   2019-07-09
 categories: books

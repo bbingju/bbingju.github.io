@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "아두이노 앱을 빌드하는 또다른 방법"
 date:   2019-10-22
 categories: embedded programming

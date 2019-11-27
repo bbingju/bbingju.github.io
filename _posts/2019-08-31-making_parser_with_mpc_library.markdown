@@ -1,6 +1,6 @@
 ---
-layout: post
-title:  "mpc 라이브러리를 이용하여 파서 만들기"
+layout: single
+title:  "mpc 라이브러리를 이용한 파서 만들기"
 date:   2019-08-31
 categories: programming
 ---

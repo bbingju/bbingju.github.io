@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "유니코드에서 한글 자모 조합으로 음절을 찾는 방법"
 date:   2019-10-27
 categories: hangul programming

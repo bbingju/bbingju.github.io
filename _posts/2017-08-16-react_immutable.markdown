@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "React & Immutable"
 date:   2017-08-16 21:22:48 +0900
 categories: log
